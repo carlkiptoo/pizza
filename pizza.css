@@ -17,17 +17,19 @@
     color: #fff;
 }
 html{
-    font-size: 62%;
+    font-size: 70%;
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
 }
 
 body{
-    background: #f7f7f7;
+    background: white;
 }
 section{
-    padding: 10rem 24%;
+    padding: 10%;
+    text-align: center;
+    size: 100%;
 }
 header{
     position: fixed;
@@ -75,16 +77,19 @@ header .navbar a:hover{
     gap: 1.5rem;
     min-height: 12vh;
     align-items: center;
-    background: url(./assets/slices-fresh-round-pizza-with-chicken-meat-vegetables-mushrooms-cheese-top-view-white-gray-surface-natural-shadow-with-copy-space_172990-248.webp) no-repeat;
-}
-.home .content{
-    flex: 1 1 40rem;  
+    
 }
 .home .image{
-    flex: 1 1 40rem;
+    flex-direction: column;
+    flex: 1 1 20rem;
 }
 .home .image img{
-    width: 100%;
+    width: 300%;
+}
+.content {
+    align-items: stretch;
+    flex: unset;
+    size: 100px;
 }
 
 
