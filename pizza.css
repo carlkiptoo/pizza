@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
-:root{
-    
-}
---red:#ff3838
+
 
 
 *{
@@ -16,7 +13,7 @@
 }
 
 *::selection{
-    background: var(--red);
+    background: pink;
     color: #fff;
 }
 html{
@@ -29,7 +26,9 @@ html{
 body{
     background: #f7f7f7;
 }
-
+section{
+    padding: 10rem 24%;
+}
 header{
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -50,7 +49,7 @@ header .logo{
 
 header .logo i{
     padding-right: 5rem;
-    color: var(--red);
+    color: red;
 }
 header .navbar a{
     font-size: 2rem;
@@ -58,7 +57,7 @@ header .navbar a{
     color: #666;
 }
 header .navbar a:hover{
-    color: var(--red);
+    color: red;
 }
 
 #menu-bar{
@@ -69,6 +68,23 @@ header .navbar a:hover{
     border-radius: 3rem;
     padding: 5rem 1.5rem;
     display: none;
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 12vh;
+    align-items: center;
+    background: url(./assets/slices-fresh-round-pizza-with-chicken-meat-vegetables-mushrooms-cheese-top-view-white-gray-surface-natural-shadow-with-copy-space_172990-248.webp) no-repeat;
+}
+.home .content{
+    flex: 1 1 40rem;  
+}
+.home .image{
+    flex: 1 1 40rem;
+}
+.home .image img{
+    width: 100%;
 }
 
 
@@ -111,4 +127,16 @@ header .navbar a:hover{
         top: 100%; left: 0; right: 0;
         background: 1rem solid rgba(0, 0, 0, 1);
     }
+    header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        display: block;
+        border: 2rem solid rgba(0, 0, 0, 1);
+        border-left: 5rem solid red;
+        background: #fff;
+    }
+}
+
+@media(max-width:400px){
+
 }
