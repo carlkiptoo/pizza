@@ -71,13 +71,10 @@ header .navbar a:hover{
     padding: 5rem 1.5rem;
     display: none;
 }
-.home{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    min-height: 12vh;
-    align-items: center;
-    
+.home {
+    font-size: 25px;
+    background-image: url(./assets/flat-lay-italian-pizza-fresh-ingredients-around-dark-surface-top-view_251318-252.webp);
+    color: white;
 }
 .home .image{
     flex-direction: column;
@@ -86,14 +83,17 @@ header .navbar a:hover{
 .home .image img{
     width: 300%;
 }
-.content {
-    align-items: stretch;
-    flex: unset;
-    size: 100px;
-}
 .order {
-    background-color: black;
-    color: white;
+    background-image: url(./assets/meat.jpg);
+    color:black;
+    font-size: 25px;
+}
+.popular {
+    color: black;
+    font-size: 25px;
+}
+.speciality {
+    font-size: 25px;
 }
 
 
