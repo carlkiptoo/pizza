@@ -73,7 +73,6 @@ header .navbar a:hover{
 }
 .home {
     font-size: 25px;
-    background-image: url(./assets/flat-lay-italian-pizza-fresh-ingredients-around-dark-surface-top-view_251318-252.webp);
     color: white;
 }
 .home .image{
@@ -84,16 +83,25 @@ header .navbar a:hover{
     width: 300%;
 }
 .order {
-    background-image: url(./assets/meat.jpg);
-    color:black;
+    color: white;
     font-size: 25px;
 }
 .popular {
-    color: black;
+    color: white;
     font-size: 25px;
+    
 }
 .speciality {
     font-size: 25px;
+    color: white;
+}
+.body {
+    background-image: url(./assets/saahil-khatkhate-kfDsMDyX1K0-unsplash.jpg);
+    background-size: 200rem;
+    background-repeat: no-repeat;
+}
+.content {
+    color: white;
 }
 
 
