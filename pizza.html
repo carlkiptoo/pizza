@@ -75,11 +75,18 @@
                     <input type="text" id="address"><br>
                     <label for="pizza" id="pizza">Pizza</label><br>
                     <input type="text" id="pizza"><br>
+                    <select name="pizza" id="pizzaOne">
+                        <option value="">pizza size</option>
+                        <option value="large">Large</option>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                    </select>
                     <label for="size" id="size">Size</label><br>
                     <input type="text" id="size"><br>
                     <label for="topping" id="topping">Topping</label><br>
                     <input type="text" id="topping"><br>
-                    <button class="btn primary">Order</button>
+                    <input type="button" class="submit" value="Make my order" onclick="myOrder()">
+                    <button class="submit" onclick="myOrder()">Order</button>
                 </form>
             </div>
         </section>

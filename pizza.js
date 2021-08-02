@@ -56,3 +56,19 @@ order.topping; {
    blackOlives= 200
    greenPeppers= 200
 }
+function order(pizza, topping, size) {
+    this.pizza = pizza;
+    this.topping = topping;
+    this.size = size;
+    
+}
+function myOrder() {
+    var name = document.getElementById('name').value;
+    var address = document.getElementById('address').value;
+    var pizza = document.getElementById('pizzaOne').value;
+    var size = document.getElementById('size').value;
+    var topping = document.getElementById('topping').value;
+    if(pizza == 'large'){
+        alert('Your order is large' )
+    }
+}
