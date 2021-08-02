@@ -68,7 +68,7 @@ function myOrder() {
     var pizza = document.getElementById('pizzaOne').value;
     var size = document.getElementById('size').value;
     var topping = document.getElementById('topping').value;
-    if(pizza == 'large'){
-        alert('Your order is large' )
+    if(pizza == 'large' && topping == ''){
+        alert('Your order is large ' )
     }
 }
