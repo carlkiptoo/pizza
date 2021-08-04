@@ -17,5 +17,5 @@ The website has no bugs
 ## Support and contact details
 carlos.kirui@student.moringaschool.com
 ### License
-https://github.com/carlkiptoo/Delani.studio/blob/gh-pages/licence
+https://github.com/carlkiptoo/pizza/blob/gh-pages/licence
 Copyright (c) {2021} **{CARLOS KIRUI}**
