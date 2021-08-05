@@ -6,7 +6,7 @@ This is a pizza house websites which allows users to order pizza of different si
 * git clone the repository
 * click https://github.com/carlkiptoo/pizza.git
 * open favorite browser
-* click 
+* click https://github.com/io/pizza.git
 * Navigate through the website
 ## Known Bugs
 The functionality of the website is not okay
