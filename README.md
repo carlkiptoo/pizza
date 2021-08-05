@@ -9,7 +9,7 @@ This is a pizza house websites which allows users to order pizza of different si
 * click 
 * Navigate through the website
 ## Known Bugs
-The website has no bugs
+The functionality of the website is not okay
 ## Technologies Used
 * HTML
 * CSS
